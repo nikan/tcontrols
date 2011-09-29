@@ -1,0 +1,40 @@
+<html>
+<head>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="tcontrols.js">
+</script>
+</head>
+<body>
+<form name="test" action="/" method="post">
+<fieldset id="fs1">
+<label for="switch">ON/OFF</label>
+<input type="radio" name="switch">
+<br/>
+<label for="switch">DA/DOO</label>
+<input type="radio" name="switch">
+<br/>
+<label for="switch">will/won't</label>
+<input type="radio" name="switch">
+<br/>
+<label for="agreement">YES/NO</label>
+<input type="checkbox" name="agreement">
+<label for="agreement">ναι/όχι</label>
+<input type="checkbox" name="συμφωνία">
+</fieldset>
+<fieldset id="fs1">
+<label for="switch1">ON/OFF</label>
+<input type="radio" name="switch1">
+<br/>
+<label for="switch1">DA/DOO</label>
+<input type="radio" name="switch1">
+<br/>
+
+</fieldset>
+</form>
+<script type="text/javascript">
+$(document).ready(function() { 
+$("input").tcontrol(['checkbox']);
+});
+</script>
+</body>
+</html>
