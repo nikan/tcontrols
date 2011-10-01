@@ -1,10 +1,10 @@
 (function ($) {
 
 	var settings = {
-		'ron' : 'img/on.png',
-		'roff': 'img/off.png',
-		'con': 'img/on.png',
-		'coff': 'img/off.png'
+		ron : 'img/on.png',
+		roff : 'img/off.png',
+		con : 'img/on.png',
+		coff : 'img/off.png'
 	},
 
 		methods = {
@@ -20,9 +20,11 @@
 			},
 
 			radio : function () {
+			
 				var control_name;
+			
 				this.each(function () {
-					if (this.type === 'radio') {
+					if (this.tagName.toLowerCase() === 'input' && this.type === 'radio') {
 						$(this).wrap("<span></span>");
 						$(this).hide();
 						control_name = $(this).attr('name');
@@ -69,7 +71,7 @@
 			checkbox : function () {
 				var control_name;
 				this.each(function () {
-					if (this.type === 'checkbox') {
+					if (this.tagName.toLowerCase() === 'input' &&  this.type === 'checkbox') {
 						$(this).wrap("<span></span>");
 						$(this).hide();
 						control_name = $(this).attr('name');
