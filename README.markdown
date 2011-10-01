@@ -13,10 +13,10 @@ tcontrols is a jQuery plugin that provides a way to theme the standard radiobutt
 ##Example
 As an example consider this snippet:
 
-`<label for="switch">ON/OFF</label>
-<input type="radio" name="switch">
+`<label for="switch">ON/OFF</label>`
+`<input type="radio" name="switch">`
 
-<script type="text/javascript">
+`<script type="text/javascript">`
 $.("input").tcontrols("radio");
-</script>`
+`</script>`
 
