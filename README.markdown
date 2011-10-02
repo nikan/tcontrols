@@ -6,9 +6,9 @@ tcontrols is a jQuery plugin that provides a way to theme the standard radiobutt
 ##How it works
 
 * You call the 'tcontrols' method on a jquery object with 'radio' or 'checkbox' as a parameter depending on what controls you want to theme. 
-* If other no arguments are passed, the controls are themed according to the images provided in the settings variable.
+* If no other arguments are passed, the controls are themed according to the images provided in the settings variable and residing in the ./img folder.
 * If arguments are passed, they are merged with the default settings (not yet implemented).
-* If the collections of elements that are passed, contains (or comprises of) other than radio and checkbox elements, these elements are simply ignored. 
+* If the collection of passed, contains (or comprises of) other than radio and checkbox elements, these elements are simply ignored. 
 
 ##Example
 As an example consider this snippet:
