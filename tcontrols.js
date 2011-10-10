@@ -1,10 +1,10 @@
 (function ($) {
 
 	var settings = {
-		ron : 'img/on.png',
-		roff : 'img/off.png',
-		con : 'img/on.png',
-		coff : 'img/off.png'
+		ron : 'img/r_on.png',
+		roff : 'img/r_off.png',
+		con : 'img/c_on.png',
+		coff : 'img/c_off.png'
 	},
 
 		methods = {
